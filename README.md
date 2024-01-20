@@ -2,7 +2,7 @@
 
 2. Запустите скрипт, указав путь к исходным файлам:
 
-    python upmain.py -o -dry /path/to/source/data
+    python upmain.py -o -dry ../path/to/source/data
 
     Опции:
 
@@ -14,6 +14,6 @@
 
     Пример без флага -o и --dry:
 
-    python upmain.py /path/to/source/data
+    python upmain.py ../path/to/source/data
 
     Примечание: Если флаг -o не указан, перезапись файлов не производится.
